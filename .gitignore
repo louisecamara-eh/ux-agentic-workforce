@@ -1,0 +1,28 @@
+# Agent outputs — local to each team member, not shared
+outputs/*
+!outputs/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if any tooling is added later)
+node_modules/
+
+# EH workspace tooling (not part of this repo)
+.ws
+.eh-claude-code/
+
+# EH plugin auto-context — local only, not part of this repo
+.claude/auto-context.md
