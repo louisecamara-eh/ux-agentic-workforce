@@ -26,3 +26,6 @@ node_modules/
 
 # EH plugin auto-context — local only, not part of this repo
 .claude/auto-context.md
+
+# Personal skills — local only, not shared with the team
+.claude/skills/new-ux-project/
